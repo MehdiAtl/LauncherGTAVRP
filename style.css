@@ -1,0 +1,41 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel {
+    z-index: -10;
+}
+.imgWallpaper{
+    min-height: 100%;
+    min-width: 100%;
+}
+body{
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgBayLife{
+    max-width: 40%;
+    min-width: 30%;
+    width: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+i{
+    color: green;
+    font-size: 450%;
+    position: absolute;
+    bottom: 129px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+i:hover {
+    color:white;
+}
