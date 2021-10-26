@@ -1,41 +1,92 @@
-*, ::before, ::after {
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.carousel {
-    z-index: -10;
-}
-.imgWallpaper{
-    min-height: 100%;
-    min-width: 100%;
+html{
+    height: 100%;
+    width: 100%;
 }
 body{
     height: 100%;
     overflow: hidden;
+    width: 100%;
+}
+img{
+    height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.divPrimary{
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    width: 510px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.divConnect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.divConnect a{
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.divConnect a:hover{
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+.divExternIcon{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.imgBayLife{
-    max-width: 40%;
-    min-width: 30%;
-    width: 50%;
-    z-index: 1;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
+.imgDiscord svg{
+    fill: white
 }
-i{
+.imgDiscord:hover svg{ 
+    fill: green;
+}
+.imgInternet svg{
+    fill: white
+}
+.imgInternet:hover svg{ 
+    fill: green;
+}
+.divGTA{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imgInternet{
+    margin-right: 50px;
+}
+a{ 
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
     color: green;
-    font-size: 450%;
-    position: absolute;
-    bottom: 129px;
-    left: 50%;
-    transform: translateX(-50%);
 }
-i:hover {
-    color:white;
+.imgGta{
+    width: 30%;
+}
+.imgInternet{
+    width: 60px;
 }
