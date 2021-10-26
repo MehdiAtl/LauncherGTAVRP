@@ -1,4 +1,4 @@
 # Launcher Template GTA RP
-This application allow to connect on a server in FiveM
+This application allows to connect to a server on FiveM
 # Screenshot 
 ![Screenshot](screenshot/screenshot.png)
